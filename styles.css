@@ -24,14 +24,28 @@
 
 body {
     margin: 0 auto;
+    max-width: 1440px;
 }
 
 
 
-.inter {
+.inter-gray {
     font-size: 22px;
     color: rgba(0, 0, 0, 0.5);
     font-weight: 400;
+}
+
+.inter-black {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+}
+
+
+.inter-bold {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700    ;
 }
 
 .text-gray {
@@ -44,8 +58,26 @@ body {
     color: rgb(0, 0, 0);
     
 }
+
+.text-white {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
 .text-big-black {
     font-size: 65px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.text-mid-black {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.text-mid-bold-black {
+    font-size: 50px;
+    font-weight: 800;
     color: rgb(0, 0, 0);
     
 }
@@ -53,6 +85,19 @@ body {
     font-size: 65px;
     color: rgba(233, 90, 8, 1)
     
+}
+.text-mid-yellow {
+    font-size: 50px;
+    color: rgba(233, 90, 8, 1)
+}
+
+.btn {
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    text-align: center;
+    width: 270px;
+    height: 50px;
+    border-style: none;
 }
 
 /*shared styles*/
@@ -101,5 +146,80 @@ body {
 }
 
 .left-banner {
-    margin-top: 98px;
+    margin-top: 72px;
+}
+
+/*Our plants styles*/
+
+.our-plants {
+    padding: 0 150px 120px 150px;
+    margin-bottom: 80px;
+}
+
+.our-plants h1 {
+    text-align: center;
+}
+
+.card-des {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cRD-DES {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.flower-card p {
+    text-align: center;
+    margin-top:     5px ;  
+}
+.flower-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+   
+}
+.flower-card button {
+    margin-top: 30px;
+}
+
+/* plants lover section start */
+
+.plants-lover {
+    padding: 0 150px 90px 150px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.lover-image img {
+    width: 545px;
+    height: 600px;
+}
+
+.lover-description {
+    margin: 38px 0px;
+}
+
+.lover-description ul{
+    padding-left: 22px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.lover-description ul li {
+    
+    margin-bottom: 30px;
+}
+
+.lover-description h1 {
+    margin-bottom: 12px;
+}
+
+.trusted-badge {
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -150px;
+    left: 505px;
 }
