@@ -314,23 +314,19 @@ body {
 
 .join {
     background-image: url(/assets/news-letter-bg.png);
-    background-size: cover;
-    
-    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
     height: 533px;
-    width: 1470px;
-    
+    width: 100%;   
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 .join h1 {
     font-size: 50px;
     color: white;
     font-weight: bold;
-
 }
 
 .input-area {
@@ -351,4 +347,47 @@ body {
     margin-left: 0px;
     background-color: rgba(233, 90, 8, 1);
     border-style: none;
+}
+
+/* footer section start */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 160px;
+}
+
+.second-footer, .third-footer {
+    display: flex;
+    flex-direction: column;
+} 
+
+.footer-link a {
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.footer-link {
+    display: flex;
+    gap: 20px;
+}
+
+.last-footer  {
+    display: flex;
+    gap: 24px;
+    
+}
+
+.last-footer img {
+    height: 36px;
+    width: 36px;
+}
+
+/* media querries */
+
+@media screen and (max-width: 576px) {
+
+    
+    
 }
