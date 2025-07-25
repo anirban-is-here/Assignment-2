@@ -252,7 +252,7 @@ body {
 .top-left-card {
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-                url('/assets/deal-bloom.png');
+                url('assets/deal-bloom.png');
     
     background-repeat: no-repeat;
     background: linear-gradient(rgba (0, 0, 0, 1));
@@ -267,7 +267,7 @@ body {
 .bottom-left-card {
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-                url('/assets/deal-ana.png');
+                url('assets/deal-ana.png');
     
     background-size: cover;
     height: 200px;
@@ -279,7 +279,7 @@ body {
 .right-main-card {
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-                url('/assets/deal-zabo.png');
+                url('assets/deal-zabo.png');
     background-repeat: no-repeat;
     background: linear-gradient(rgba (0, 0, 0, 0.4));
     background-size: cover;
@@ -314,7 +314,7 @@ body {
 /* join section start */
 
 .join {
-    background-image: url(/assets/news-letter-bg.png);
+    background-image: url(assets/news-letter-bg.png);
     background-repeat: no-repeat;
     background-size: auto;
     height: 533px;
@@ -580,8 +580,25 @@ body {
     top: -150px;
     left: 505px;
     display: none;
+    
 }
 
+.spinner {
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
 /*Latest Deals Section*/
 
 .latest-deals {
@@ -624,7 +641,7 @@ body {
 .top-left-card {
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-                url('/assets/deal-bloom.png');
+                url('assets/deal-bloom.png');
     
     background-repeat: no-repeat;
     background: linear-gradient(rgba (0, 0, 0, 1));
@@ -638,7 +655,7 @@ body {
 .bottom-left-card {
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-                url('/assets/deal-ana.png');
+                url('assets/deal-ana.png');
     
     background-size: cover;
     
@@ -649,7 +666,7 @@ body {
 .right-main-card {
     
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-                url('/assets/deal-zabo.png');
+                url('assets/deal-zabo.png');
     background-repeat: no-repeat;
     background: linear-gradient(rgba (0, 0, 0, 0.4));
     background-size: cover;
